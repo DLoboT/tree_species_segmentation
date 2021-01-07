@@ -45,7 +45,7 @@ def Directory():
         if file.endswith(".JPG"):
             Images.append(file)
     
-    Images = shuffle(Images, random_state = 1)
+    Images = shuffle(Images, random_state = 0)
   
     return Images
 
