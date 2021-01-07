@@ -378,7 +378,6 @@ if __name__=='__main__':
             # Calling the train function  
             loss_train_Unet, acc_train_Unet, loss_val_Unet, acc_val_Unet, loss_test_Unet, acc_test_Unet = Train(4,100,test_set,train_set)
             print("Finish Unet"+ str(k))
-            k = k+1
         
         elif Arq ==3:
             print("Start DeepLabv3p")
